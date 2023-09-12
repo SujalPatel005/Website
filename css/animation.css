@@ -1,0 +1,24 @@
+/* For animation transition */
+.reveal-left {
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal-left.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.reveal-right {
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal-right.active {
+    transform: translateX(0);
+    opacity: 1;
+}
